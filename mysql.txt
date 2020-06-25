@@ -1,0 +1,6 @@
+mysql -u root -p
+create database test;
+use test;
+create table info (id char(10), name char(20), kg char(10));
+insert into info values ('1','miki','d-hacks');
+select*from info;
